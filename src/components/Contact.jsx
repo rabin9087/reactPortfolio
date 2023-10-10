@@ -7,19 +7,20 @@ const Contact = () => {
 
       <div className="container">
         <div className="socials flex">
-          <a href="https://www.facebook.com/rabin908765" target="_blank">
+          <a href="https://www.facebook.com/rabin908765" target="blank">
             <i className="fa-brands fa-facebook"></i>
           </a>
-          <a href="https://www.instagram.com/rabinshah9087/" target="_blank">
+          <a href="https://www.instagram.com/rabinshah9087/" target="blank">
             <i className="fa-brands fa-instagram"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/rabin-shah-175a20117/"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://github.com/rabin9087" target="_blank">
+          <a href="https://github.com/rabin9087" target="blank">
             <i className="fa-brands fa-github"></i>
           </a>
         </div>

@@ -6,7 +6,10 @@ const Navbar = () => {
     <header>
       <nav className="container flex navigation">
         <div className="flex nav-left">
-          <h1>Rabin</h1>
+          <h1 style={{ textDecoration: "none" }}>
+            <Link to={"/"}>Rabin</Link>
+          </h1>
+
           <div className="line">Soft. Engineer</div>
         </div>
         <div className="menu">
