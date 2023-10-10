@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/prem.png";
+import profilePic from "../assets/profilePic.png";
 const About = () => {
   return (
     <section id="about" className="about">

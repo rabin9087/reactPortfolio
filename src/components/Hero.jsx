@@ -1,5 +1,5 @@
 import React from "react";
-import profile_pic from "../assets/rabinProfile.png";
+import profile_pic from "../assets/profilePic.png";
 const Hero = () => {
   return (
     <section id="home" className="container hero-section">
@@ -9,7 +9,7 @@ const Hero = () => {
             {" "}
             Hi I'm <strong>Rabin Shah</strong>
           </p>
-          <h3>Software ENginerr</h3>
+          <h3>Software Enginerr</h3>
           <p>I love coding and programming</p>
           <button className="download-btn">
             <a href="../assets/portfolio-website.pdf" download>
