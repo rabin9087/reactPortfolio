@@ -279,3 +279,11 @@ height: 50px;
 .email-container i {
   color: var(--color-orange);
 }
+
+/* Footer */
+.footer{
+  background: var(--color-orange);
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
