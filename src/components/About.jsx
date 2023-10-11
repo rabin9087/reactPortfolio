@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/profilePic.png";
+import profilePic from "../assets/rabinPhoto.png";
 const About = () => {
   return (
     <section id="about" className="about">
@@ -10,15 +10,28 @@ const About = () => {
         </div>
         <div className="about-right">
           <h2>Rabin Shah</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eos in
-            sequi fuga rem eius delectus soluta aut neque dolores.
+          <p style={{ textAlign: "justify", marginLeft: "1rem" }}>
+            I'm a passionate and results-driven software developer with a focus
+            on full-stack web development. I thrive on building intuitive and
+            efficient applications that provide exceptional user experiences.
+            With a strong foundation in the latest technologies and best
+            practices, I'm dedicated to creating robust and scalable solutions.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            rem voluptatum illo. Eveniet nihil sit voluptatibus veritatis
-            accusamus? Praesentium nisi in eaque assumenda ipsa inventore alias
-            ad maxime consectetur fugiat!
+          <p style={{ textAlign: "justify", marginLeft: "1rem" }}>
+            <ul>
+              <li>
+                I bring a strong work ethic, a love for clean code, and a
+                dedication to meeting project deadlines.
+              </li>
+              <li>
+                I'm a fast learner, adapting quickly to new technologies and
+                frameworks.
+              </li>
+              <li>
+                I'm a team player who thrives in collaborative environments, as
+                I believe that great products are born from great teamwork.
+              </li>
+            </ul>
           </p>
           <p>Kogarh, NSW, Australia</p>
 

@@ -110,6 +110,7 @@ align-items: center;
 }
 
 .left{
+  padding-top: 1rem;
   grid-area: left;
   justify-content: center;
   flex-direction: column;
@@ -218,16 +219,22 @@ height: 50px;
 }
 
 .about{
+  margin-top: 2rem;
+  padding-top: 1rem;
   background: rgb(168, 225, 33, 0.578 )}
 
 .about-left{
   justify-content: center;
-  width: 60%;
+  width: 40%;
 }
 
 .about-left img{
-  min-width: 350px;
-  max-width: 400px;
+background-color: #fff;
+border: 2px solid white;
+border-radius: 9rem;
+padding: 2rem;
+height: 300px;
+width: fit-content;
 }
 
 .about-right h2 {
@@ -245,10 +252,14 @@ height: 50px;
   font-weight: bold;
   font-size: 1.3rem;
 }
+.interest{
+  padding-bottom: 1rem;
+}
 
 .about-right .interest span:hover{
   cursor: pointer;
   text-decoration: underline;
+  
 }
 
 .socials {
@@ -286,4 +297,9 @@ height: 50px;
   text-align: center;
   margin-top: 20px;
   padding: 10px;
+}
+
+.GitChromIcon{
+  font-size: 2rem;
+  color: "#E83A2D"
 }
