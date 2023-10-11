@@ -1,5 +1,7 @@
 import React from "react";
-import projectImg from "../assets/p1.png";
+import weatherForecast from "../assets/weatherForecast.png";
+import movieCollection from "../assets/movieDb.png";
+import chrome from "../assets/icons8-chrome-48.png";
 const Works = () => {
   return (
     <section id="projects" className="container projects">
@@ -8,50 +10,24 @@ const Works = () => {
       <div className="grid project-container">
         <div className="project-card">
           <div className="top">
-            <img src={projectImg} alt="project-img" />
+            <img src={weatherForecast} alt="project-img" />
           </div>
 
           <div className="bottom container">
-            <h3>Saas</h3>
+            <h3>Weather Forecast</h3>
             <p>October 2023</p>
-            <a href="">
-              <i className="fa-brands fa-github"></i>
+            <a
+              className="GitChromIcon"
+              href="https://github.com/rabin9087/weatherForecast"
+              target="blank"
+            >
+              <i
+                className="fa-brands fa-github"
+                style={{ color: "#E83A2D" }}
+              ></i>
             </a>
-            <a href="">
-              <i className="fa-brands fa-chrome"></i>
-            </a>
-          </div>
-        </div>
-
-        
-        <div className="project-card">
-          <div className="top">
-            <img src={projectImg} alt="project-img" />
-          </div>
-
-          <div className="bottom container">
-            <h3>Personal portfolio website</h3>
-            <p>October 2023</p>
-            <a href="">
-              <i className="fa-brands fa-github"></i>
-            </a>
-            <a href="">
-              <i className="fa-brands fa-chrome"></i>
-            </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <div className="top">
-            <img src={projectImg} alt="project-img" />
-          </div>
-
-          <div className="bottom container">
-            <h3>Personal portfolio website</h3>
-            <p>October 2023</p>
-            <a href="">
-              <i className="fa-brands fa-github"></i>
-            </a>
-            <a href="">
+            &nbsp;
+            <a className="GitChromIcon" href="">
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>
@@ -59,26 +35,70 @@ const Works = () => {
 
         <div className="project-card">
           <div className="top">
-            <img src={projectImg} alt="project-img" />
+            <img src={movieCollection} alt="project-img" />
+          </div>
+
+          <div className="bottom container">
+            <h3>Movie Collection</h3>
+            <p>October 2023</p>
+            <a
+              className="GitChromIcon"
+              href="https://github.com/rabin9087/Movie_Finder_API"
+              target="blank"
+            >
+              <i
+                className="fa-brands fa-github"
+                style={{ color: "#E83A2D" }}
+              ></i>
+            </a>{" "}
+            &nbsp;
+            <a className="GitChromIcon" href="">
+              <i className="fa-brands fa-chrome"></i>
+            </a>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="top">
+            <img src={weatherForecast} alt="project-img" />
           </div>
 
           <div className="bottom container">
             <h3>Personal portfolio website</h3>
             <p>October 2023</p>
-            <a href="">
-              <i className="fa-brands fa-github"></i>
+            <a className="GitChromIcon" href="">
+              <i
+                className="fa-brands fa-github"
+                style={{ color: "#E83A2D" }}
+              ></i>
             </a>
-            <a href="">
+            &nbsp;
+            <a className="GitChromIcon" href="">
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>
         </div>
-        
-        
-        
-        
-        
 
+        <div className="project-card">
+          <div className="top">
+            <img src={weatherForecast} alt="project-img" />
+          </div>
+
+          <div className="bottom container">
+            <h3>Personal portfolio website</h3>
+            <p>October 2023</p>
+            <a className="GitChromIcon" href="">
+              <i
+                className="fa-brands fa-github"
+                style={{ color: "#E83A2D" }}
+              ></i>
+            </a>
+            &nbsp;
+            <a className="GitChromIcon" href="">
+              {/* <img src={chrome} alt="Chrome" /> */}
+              <i className="fa-brands fa-chrome"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
