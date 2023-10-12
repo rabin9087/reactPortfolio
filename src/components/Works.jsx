@@ -1,7 +1,8 @@
 import React from "react";
 import weatherForecast from "../assets/weatherForecast.png";
 import movieCollection from "../assets/movieDb.png";
-import chrome from "../assets/icons8-chrome-48.png";
+import prankCalculator from "../assets/prankCalulator.png";
+import notTodoList from "../assets/notToDOList.png";
 const Works = () => {
   return (
     <section id="projects" className="container projects">
@@ -27,7 +28,11 @@ const Works = () => {
               ></i>
             </a>
             &nbsp;
-            <a className="GitChromIcon" href="">
+            <a
+              className="GitChromIcon"
+              href="https://weather-forecast-pearl.vercel.app/"
+              target="blank"
+            >
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>
@@ -52,27 +57,39 @@ const Works = () => {
               ></i>
             </a>{" "}
             &nbsp;
-            <a className="GitChromIcon" href="https://movie-finder-api.vercel.app/">
+            <a
+              className="GitChromIcon"
+              href="https://movie-finder-api.vercel.app/"
+              target="blank"
+            >
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>
         </div>
         <div className="project-card">
           <div className="top">
-            <img src={weatherForecast} alt="project-img" />
+            <img src={prankCalculator} alt="project-img" />
           </div>
 
           <div className="bottom container">
-            <h3>Personal portfolio website</h3>
+            <h3>Prank Calculator</h3>
             <p>October 2023</p>
-            <a className="GitChromIcon" href="">
+            <a
+              className="GitChromIcon"
+              href="https://github.com/rabin9087/prankCalculator"
+              target="blank"
+            >
               <i
                 className="fa-brands fa-github"
                 style={{ color: "#E83A2D" }}
               ></i>
             </a>
             &nbsp;
-            <a className="GitChromIcon" href="">
+            <a
+              className="GitChromIcon"
+              href="https://vercel.com/rabins-projects/prank-calculator"
+              target="blank"
+            >
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>
@@ -80,21 +97,28 @@ const Works = () => {
 
         <div className="project-card">
           <div className="top">
-            <img src={weatherForecast} alt="project-img" />
+            <img src={notTodoList} alt="project-img" />
           </div>
 
           <div className="bottom container">
             <h3>Personal portfolio website</h3>
             <p>October 2023</p>
-            <a className="GitChromIcon" href="">
+            <a
+              className="GitChromIcon"
+              href="https://github.com/rabin9087/reactNotTODOList"
+              target="blank"
+            >
               <i
                 className="fa-brands fa-github"
                 style={{ color: "#E83A2D" }}
               ></i>
             </a>
             &nbsp;
-            <a className="GitChromIcon" href="">
-              {/* <img src={chrome} alt="Chrome" /> */}
+            <a
+              className="GitChromIcon"
+              href="https://react-not-todo-list.vercel.app/"
+              target="blank"
+            >
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>

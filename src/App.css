@@ -134,10 +134,12 @@ align-items: center;
 }
 
 .banner {
-margin-top: 7rem;
+margin-top: 4rem;
 border: 2px solid var(--border-color);
 padding: 2rem;
 justify-content: space-between;
+margin-left: 3rem;
+margin-right: 3rem;
 align-items: center;
 border-radius: 100px;
 }
@@ -221,7 +223,9 @@ height: 50px;
 .about{
   margin-top: 2rem;
   padding-top: 1rem;
-  background: rgb(168, 225, 33, 0.578 )}
+  padding-bottom: 2rem;
+  background: rgb(168, 225, 33, 0.578 )
+}
 
 .about-left{
   justify-content: center;

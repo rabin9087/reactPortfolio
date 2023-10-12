@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section id="skills" className="flex container skills">
+    <section id="skills" className="flex container skills about">
       <h2 className="title">My Skills</h2>
       <div>
         <div className="">
