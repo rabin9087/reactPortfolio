@@ -52,7 +52,7 @@ const Works = () => {
               ></i>
             </a>{" "}
             &nbsp;
-            <a className="GitChromIcon" href="">
+            <a className="GitChromIcon" href="https://movie-finder-api.vercel.app/">
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>

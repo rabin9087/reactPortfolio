@@ -14,7 +14,7 @@ const Skills = () => {
           <span>CSS</span>
         </div>
         <div className="">
-        <i class="fa-brands fa-bootstrap" style={{ color: "#7811F0" }}></i>
+          <i class="fa-brands fa-bootstrap" style={{ color: "#7811F0" }}></i>
           <span>Bootstrap</span>
         </div>
         <div className="">
@@ -26,7 +26,7 @@ const Skills = () => {
           <span>React</span>
         </div>
         <div className="">
-        <i class="fa-brands fa-github" style={{ color: "#E83A2D" }}></i>
+          <i class="fa-brands fa-github" style={{ color: "#E83A2D" }}></i>
           <span>Git</span>
         </div>
       </div>
