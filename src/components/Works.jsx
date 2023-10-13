@@ -87,7 +87,7 @@ const Works = () => {
             &nbsp;
             <a
               className="GitChromIcon"
-              href="https://vercel.com/rabins-projects/prank-calculator"
+              href="https://prank-calculator-95obhprwd-rabins-projects.vercel.app/"
               target="blank"
             >
               <i className="fa-brands fa-chrome"></i>
