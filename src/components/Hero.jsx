@@ -1,5 +1,6 @@
 import React from "react";
 import profile_pic from "../assets/rabinProfile.png";
+import Info from "./Info";
 const Hero = () => {
   return (
     <section id="home" className="container hero-section">
@@ -24,6 +25,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <Info />
     </section>
   );
 };

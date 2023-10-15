@@ -15,6 +15,7 @@ function App() {
     <>
     <input type='checkbox' id='darkmode'/>
     <div className="wrapper">
+      <div className='main'>
       <label htmlFor='darkmode' className='dark-mode-toggle'>
       <i class="fa-solid fa-circle-half-stroke"></i>
       </label>
@@ -26,7 +27,7 @@ function App() {
         <Route path='/about-me' element ={<About/>}/>
         <Route path='/contact' element ={<Contact/>}/>
       </Routes>
-      <Info/>
+      </div>
       <Footer/>
     </div>
     </>
