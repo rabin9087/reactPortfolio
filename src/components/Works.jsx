@@ -101,7 +101,7 @@ const Works = () => {
           </div>
 
           <div className="bottom container">
-            <h3>Personal portfolio website</h3>
+            <h3>Not todo List</h3>
             <p>October 2023</p>
             <a
               className="GitChromIcon"
