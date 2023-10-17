@@ -1,6 +1,6 @@
 import React from "react";
-import profilePic from "../assets/rabinProfile-min.png";
-import {row, col} from 'bootstrap'
+import profilePic from "../assets/rabinProfile.png";
+
 const About = () => {
   return (
     <section id="about" className="about">
