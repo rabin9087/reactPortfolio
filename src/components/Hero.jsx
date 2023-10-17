@@ -1,5 +1,5 @@
 import React from "react";
-import profile_pic from "../assets/rabinProfile-min.png";
+import profile_pic from "../assets/rabinProfile.png";
 const Hero = () => {
   return (
     <section id="home" className="container hero-section">
