@@ -94,11 +94,10 @@ align-items: center;
 .hero {
   grid-template-areas: "left right";
   background-color: var(--color-orange);
-  padding: 0 2rem;
 }
 .download-btn {
   background-color: var(--color-dark);
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 2 rem;
   border-radius: 2rem;
   color: #fff;
   border: none;
@@ -110,11 +109,10 @@ align-items: center;
 }
 
 .left{
-  padding-top: 1rem;
   grid-area: left;
   justify-content: center;
   flex-direction: column;
-  margin-left: 10vw;
+  margin-left: 10px;
 }
 
 .right {
@@ -123,23 +121,16 @@ align-items: center;
   align-items: flex-end;
   margin-top: -5rem
 }
-.img-container{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  border-radius: 30px;
-}
-.right .img-container img {
-  width: 50%;
+.right img {
+  min-width: 300px;
+  max-width: 350px;
 }
 
 .banner {
-margin-top: 4rem;
+margin-top: 7rem;
 border: 2px solid var(--border-color);
 padding: 2rem;
 justify-content: space-between;
-margin-left: 3rem;
-margin-right: 3rem;
 align-items: center;
 border-radius: 100px;
 }
@@ -221,24 +212,20 @@ height: 50px;
 }
 
 .about{
-  margin-top: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  background: rgb(168, 225, 33, 0.578 )
+  background: rgb(168, 225, 33, 0.578 );
+padding: 2rem 1rem 2rem 1rem;
+margin-top: 2rem;
 }
+
 
 .about-left{
   justify-content: center;
-  width: 40%;
+  width: 60%;
 }
 
 .about-left img{
-background-color: #fff;
-border: 2px solid white;
-border-radius: 9rem;
-padding: 2rem;
-height: 300px;
-width: fit-content;
+  min-width: 350px;
+  max-width: 400px;
 }
 
 .about-right h2 {
@@ -256,14 +243,10 @@ width: fit-content;
   font-weight: bold;
   font-size: 1.3rem;
 }
-.interest{
-  padding-bottom: 1rem;
-}
 
 .about-right .interest span:hover{
   cursor: pointer;
   text-decoration: underline;
-  
 }
 
 .socials {
@@ -292,7 +275,7 @@ width: fit-content;
   outline: none;
 }
 .email-container i {
-  color: var(--color-orange);
+  color: var(--color-orange)
 }
 
 /* Footer */
@@ -300,10 +283,128 @@ width: fit-content;
   background: var(--color-orange);
   text-align: center;
   margin-top: 20px;
-  padding: 10px;
-}
-.GitChromIcon{
-  font-size: 2rem;
-  color: "#E83A2D"
+  padding: 1rem;
 }
 
+.hamburger{
+  display: none;
+  }
+
+/* responsive */
+
+/* @media screen and (max-width: 768px) {
+
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu ul {
+    display: block;
+    flex-direction: column;
+    position: fixed;
+   left: 100%;
+    width: 15rem;
+    background-color: var(--body-bg);
+    height: 100vh;
+    top: 3.3rem;
+    transition: 0.5s ease-in;
+    box-shadow: 0 0 0 1px rgb(rgba(128, 128, 128, 0.342));
+  }
+
+  .menu ul li{
+    padding-left: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+  }
+
+  .menu .slide{
+    left: cal(100% - 15rem);
+  }
+  
+} */
+
+
+@media screen and (max-width: 768px) {
+
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+  .navigation ul {
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    width: 15rem;
+    left: 100%;
+    background-color: var(--body-bg);
+    height: 100vh;
+    top: 3.3rem;
+    transition: 0.5s ease-in;
+    box-shadow: 0 0 0 1px rgb(rgba(128, 128, 128, 0.342));
+  }
+  .navigation ul li{
+    padding-left: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+  }
+
+  .navigation ul.slide{
+    left: calc(100% - 10rem);
+  }
+ 
+  .hero {
+    grid-template-areas: 
+    "right" 
+    "left";
+    background-color: var(--color-orange);
+  }
+  .hero{
+    padding-bottom: 3rem;
+  }
+  .hero .right {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .hero .right img {
+    width: 70%;
+    
+  }
+
+  .banner{
+    width: 250px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .info-content{
+    margin-bottom:3rem;
+  }
+
+  .info-divider{
+    display: none;
+  }
+
+  .project-container{
+    grid-template-columns: 1fr;
+  }
+
+  .about .container{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .about .about-left{
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-left img {
+    width:  70%;
+  }
+
+}

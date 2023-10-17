@@ -1,12 +1,17 @@
 import React from "react";
-import profilePic from "../assets/rabinPhoto.png";
+import profilePic from "../assets/rabinProfile-min.png";
+import {row, col} from 'bootstrap'
 const About = () => {
   return (
     <section id="about" className="about">
       <h2 className="title">About Me</h2>
       <div className="container flex">
         <div className="about-left">
+
+          <div className="img-fluid">
           <img src={profilePic} alt="Profile pic" />
+          </div>
+          
         </div>
         <div className="about-right">
           <h2>Rabin Shah</h2>
