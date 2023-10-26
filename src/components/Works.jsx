@@ -1,5 +1,5 @@
 import React from "react";
-import weatherForecast from "../assets/weatherForecast.png";
+import weatherForecast from "../assets/weatherForecastIMG.png";
 import movieCollection from "../assets/movieDb.png";
 import prankCalculator from "../assets/prankCalulator.png";
 import notTodoList from "../assets/notToDOList.png";
@@ -11,7 +11,13 @@ const Works = () => {
       <div className="grid project-container">
         <div className="project-card">
           <div className="top">
+          <a
+              className="GitChromIcon"
+              href="https://weather-forecast-pearl.vercel.app/"
+              target="blank"
+            >
             <img src={weatherForecast} alt="project-img" />
+           </a>
           </div>
 
           <div className="bottom container">
@@ -40,7 +46,13 @@ const Works = () => {
 
         <div className="project-card">
           <div className="top">
+          <a
+              className="GitChromIcon"
+              href="https://movie-finder-api.vercel.app/"
+              target="blank"
+            >
             <img src={movieCollection} alt="project-img" />
+            </a>
           </div>
 
           <div className="bottom container">
@@ -68,7 +80,13 @@ const Works = () => {
         </div>
         <div className="project-card">
           <div className="top">
+          <a
+              className="GitChromIcon"
+              href="https://vercel.com/rabins-projects/prank-calculator"
+              target="blank"
+            >
             <img src={prankCalculator} alt="project-img" />
+            </a>
           </div>
 
           <div className="bottom container">
@@ -97,7 +115,13 @@ const Works = () => {
 
         <div className="project-card">
           <div className="top">
+          <a
+              className="GitChromIcon"
+              href="https://react-not-todo-list.vercel.app/"
+              target="blank"
+            >
             <img src={notTodoList} alt="project-img" />
+            </a>
           </div>
 
           <div className="bottom container">
