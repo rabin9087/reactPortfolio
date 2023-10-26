@@ -2,7 +2,7 @@
   box-sizing: border-box;;
 }
 :root {
-  --color-orange: #ff5c00;
+  --color-orange: #CDEE7F;
   --color-dark: #2a2a2a;
   --body-bg: #fff;
   --text-color: var(--color-dark);
@@ -161,7 +161,6 @@ height: 50px;
 .skills {
   padding-top: 7rem;
   flex-direction: column;
-  font-size: 2rem;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 3rem;

@@ -9,7 +9,7 @@ const Info = () => {
         </div>
         <div>
           <strong>IT</strong>
-          <p>Graduate</p>
+          <h3>Graduate</h3>
         </div>
       </div>
       <div className="info-divider"></div>
@@ -19,7 +19,7 @@ const Info = () => {
         </div>
         <div>
           <strong> 5+ projects</strong>
-          <p>Completed</p>
+          <h3>Completed</h3>
         </div>
       </div>
       <div className="info-divider"></div>
@@ -29,7 +29,7 @@ const Info = () => {
         </div>
         <div>
           <span>1 Year</span>
-          <p>experience</p>
+          <h3>experience</h3>
         </div>
       </div>
     </section>
